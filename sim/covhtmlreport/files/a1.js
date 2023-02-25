@@ -1,0 +1,2 @@
+var g_data = {"17":{"pr":"/ram_pkg","ty":2,"dui":2,"dun":"work.ram_pkg","asserts":[{"n":["ram_gen/start/#anonblk#142829415#54#4#/#ublk#142829415#55/immed__58"],"h":[0,3]}],"ad":0}}
+processAssertionsData(g_data);

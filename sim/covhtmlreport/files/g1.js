@@ -1,0 +1,2 @@
+var g_data = {"17":{"pr":"/ram_pkg","ty":2,"dui":2,"dun":"work.ram_pkg","cvgs":[{"h":["\\/ram_pkg::ram_sb::mem_coverage ",2,1,23,18],"cov":[28,12,55.55],"opts":{"goal":"100","per_instance":"true"}},{"h":["/ram_pkg/ram_sb/mem_coverage",1,1,18],"cov":[28,12,55.55],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

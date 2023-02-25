@@ -1,0 +1,2 @@
+var g_data = ["","../env_lib/ram_if.sv","../test/ram_pkg.sv","../env_lib/ram_sb.sv","../env_lib/ram_trans.sv","../test/test.sv","../env_lib/ram_gen.sv","../env_lib/ram_write_bfm.sv","../env_lib/ram_read_bfm.sv","../env_lib/ram_write_mon.sv","../env_lib/ram_read_mon.sv","../env_lib/ram_model.sv","../env/ram_env.sv","../test/top.sv","../rtl/ram_4096.v","../rtl/mem_dec.v","../rtl/dual_mem.v"];
+processSrcNamesData(g_data);

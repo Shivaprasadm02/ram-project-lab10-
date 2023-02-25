@@ -1,0 +1,2 @@
+var g_data = {"7":["work.dual_mem",73.20,1],"6":["work.mem_dec",90.00,1],"5":["work.ram_4096",49.69,1],"1":["work.ram_if",47.09,1],"2":["work.ram_pkg",56.80,1],"4":["work.top",100.00,1]};
+processDuLinks(g_data);

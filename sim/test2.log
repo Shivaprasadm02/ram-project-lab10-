@@ -1,0 +1,730 @@
+# vsim -cvgperinstance -vopt -voptargs="+acc" -coverage -sva -c -do " log -r /* ;coverage save -onexit mem_cov2;run -all; exit" -wlf wave_file2.wlf -l test2.log -sv_seed 1556525292 work.top "+TEST2" 
+# Start time: 22:44:18 on Feb 06,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 2022.1 linux Jan 29 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ram_if(fast)
+# Loading work.ram_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.ram_if(fast__2)
+# Loading work.ram_4096(fast)
+# Loading work.mem_dec(fast)
+# Loading work.dual_mem(fast)
+#  log -r /* 
+# coverage save -onexit mem_cov2
+# run -all
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           1
+# 	Read Transaction No.           0
+# 	Write Transaction No.           0
+# 	Read-Write Transaction No.           1
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 845, Write_Address= 633
+# 	Data=                8965
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           2
+# 	Read Transaction No.           0
+# 	Write Transaction No.           1
+# 	Read-Write Transaction No.           1
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 357, Write_Address= 372
+# 	Data=                3407
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           3
+# 	Read Transaction No.           0
+# 	Write Transaction No.           2
+# 	Read-Write Transaction No.           1
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=1151, Write_Address= 770
+# 	Data=                1240
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           4
+# 	Read Transaction No.           0
+# 	Write Transaction No.           3
+# 	Read-Write Transaction No.           1
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 247, Write_Address=  31
+# 	Data=                8050
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           5
+# 	Read Transaction No.           0
+# 	Write Transaction No.           3
+# 	Read-Write Transaction No.           2
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 393, Write_Address= 794
+# 	Data=                5332
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           6
+# 	Read Transaction No.           0
+# 	Write Transaction No.           3
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=1127, Write_Address= 536
+# 	Data=                6184
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           7
+# 	Read Transaction No.           0
+# 	Write Transaction No.           4
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 107, Write_Address= 247
+# 	Data=                 333
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           8
+# 	Read Transaction No.           0
+# 	Write Transaction No.           5
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=1155, Write_Address=  44
+# 	Data=                2748
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.           9
+# 	Read Transaction No.           0
+# 	Write Transaction No.           6
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=  47, Write_Address= 835
+# 	Data=                5270
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          10
+# 	Read Transaction No.           0
+# 	Write Transaction No.           7
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=  85, Write_Address= 920
+# 	Data=                8307
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          11
+# 	Read Transaction No.           0
+# 	Write Transaction No.           8
+# 	Read-Write Transaction No.           3
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 600, Write_Address= 625
+# 	Data=                5356
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          12
+# 	Read Transaction No.           0
+# 	Write Transaction No.           8
+# 	Read-Write Transaction No.           4
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=  61, Write_Address= 435
+# 	Data=                1324
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          13
+# 	Read Transaction No.           0
+# 	Write Transaction No.           8
+# 	Read-Write Transaction No.           5
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=  62, Write_Address=  60
+# 	Data=                 137
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          14
+# 	Read Transaction No.           0
+# 	Write Transaction No.           9
+# 	Read-Write Transaction No.           5
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 985, Write_Address= 754
+# 	Data=                7996
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          15
+# 	Read Transaction No.           0
+# 	Write Transaction No.          10
+# 	Read-Write Transaction No.           5
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=1020, Write_Address= 121
+# 	Data=                3978
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          16
+# 	Read Transaction No.           0
+# 	Write Transaction No.          10
+# 	Read-Write Transaction No.           6
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 470, Write_Address= 910
+# 	Data=                3329
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          17
+# 	Read Transaction No.           0
+# 	Write Transaction No.          10
+# 	Read-Write Transaction No.           7
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=1165, Write_Address=1016
+# 	Data=                3133
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          18
+# 	Read Transaction No.           0
+# 	Write Transaction No.          11
+# 	Read-Write Transaction No.           7
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 234, Write_Address=  27
+# 	Data=                5413
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          19
+# 	Read Transaction No.           0
+# 	Write Transaction No.          11
+# 	Read-Write Transaction No.           8
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 252, Write_Address= 544
+# 	Data=                6242
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          20
+# 	Read Transaction No.           0
+# 	Write Transaction No.          11
+# 	Read-Write Transaction No.           9
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 726, Write_Address= 282
+# 	Data=                2839
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          21
+# 	Read Transaction No.           0
+# 	Write Transaction No.          11
+# 	Read-Write Transaction No.          10
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 237, Write_Address= 578
+# 	Data=                3134
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          22
+# 	Read Transaction No.           0
+# 	Write Transaction No.          11
+# 	Read-Write Transaction No.          11
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=1042, Write_Address=   4
+# 	Data=                8446
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          23
+# 	Read Transaction No.           0
+# 	Write Transaction No.          12
+# 	Read-Write Transaction No.          11
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 630, Write_Address= 810
+# 	Data=                6182
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          24
+# 	Read Transaction No.           0
+# 	Write Transaction No.          12
+# 	Read-Write Transaction No.          12
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address=1062, Write_Address=1148
+# 	Data=                3944
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          25
+# 	Read Transaction No.           0
+# 	Write Transaction No.          13
+# 	Read-Write Transaction No.          12
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 924, Write_Address= 404
+# 	Data=                1880
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          26
+# 	Read Transaction No.           0
+# 	Write Transaction No.          14
+# 	Read-Write Transaction No.          12
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 153, Write_Address= 516
+# 	Data=                3419
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          27
+# 	Read Transaction No.           0
+# 	Write Transaction No.          15
+# 	Read-Write Transaction No.          12
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=  19, Write_Address= 569
+# 	Data=                7366
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          28
+# 	Read Transaction No.           0
+# 	Write Transaction No.          15
+# 	Read-Write Transaction No.          13
+# 	_______________________________
+# 	Read=1, write=1
+# 	Read_Address= 840, Write_Address= 524
+# 	Data=                1999
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          29
+# 	Read Transaction No.           0
+# 	Write Transaction No.          16
+# 	Read-Write Transaction No.          13
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address= 222, Write_Address= 805
+# 	Data=                3918
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# 	RANDOMIZED DATA
+# 	_______________________________
+# 	Transaction No.          30
+# 	Read Transaction No.           0
+# 	Write Transaction No.          17
+# 	Read-Write Transaction No.          13
+# 	_______________________________
+# 	Read=0, write=1
+# 	Read_Address=  69, Write_Address= 130
+# 	Data=                7630
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 845, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 633
+# 	Data=                8965
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 372
+# 	Data=                3407
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 770
+# 	Data=                1240
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=  31
+# 	Data=                8050
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 393, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 794
+# 	Data=                5332
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=1127, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 536
+# 	Data=                6184
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 247
+# 	Data=                 333
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=  44
+# 	Data=                2748
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 835
+# 	Data=                5270
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 920
+# 	Data=                8307
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 625
+# 	Data=                5356
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=  61, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 435
+# 	Data=                1324
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=  62, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=  60
+# 	Data=                 137
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 754
+# 	Data=                7996
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 121
+# 	Data=                3978
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 470, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 910
+# 	Data=                3329
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=1165, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=1016
+# 	Data=                3133
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=  27
+# 	Data=                5413
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 252, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 544
+# 	Data=                6242
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 726, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 282
+# 	Data=                2839
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 237, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 578
+# 	Data=                3134
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=1042, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=   4
+# 	Data=                8446
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 810
+# 	Data=                6182
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address=1062, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address=1148
+# 	Data=                3944
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 404
+# 	Data=                1880
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 516
+# 	Data=                3419
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 569
+# 	Data=                7366
+# 	Data_out=                    x
+# =============================================================
+# =============================================================
+# DATA FROM READ MONITOR
+# 	Read=1, write=0
+# 	Read_Address= 840, Write_Address=   0
+# 	Data=                   0
+# 	Data_out=                    0
+# =============================================================
+# =============================================================
+# DATA FROM WRITE MONITOR
+# 	Read=0, write=1
+# 	Read_Address=   0, Write_Address= 524
+# 	Data=                1999
+# 	Data_out=                    x
+# =============================================================
+# SB: Random data not written
+#  ------------------------ SCOREBOARD REPORT ----------------------- 
+#  
+#  13 Read Data Generated, 13 Read Data Recevied, 13 Read Data Verified 
+# 
+#  ------------------------------------------------------------------ 
+#  
+# ** Note: $finish    : ../test/test.sv(97)
+#    Time: 41895 ns  Iteration: 5  Instance: /top
+# Saving coverage database on exit...
+# End time: 22:44:18 on Feb 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
